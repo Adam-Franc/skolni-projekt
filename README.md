@@ -17,7 +17,7 @@ V prvníp pololetí jsem se rozhodl naučit se v programech a připravit si vše
 Jako projekt jsem si vybral a vymyslel: __Reciklační vyráběčku filamentu__
 #### Fotky📷
 Zde jsem si nakreslil plánek.
-![Alt text]()
+![Alt text](1734542854064.jpg)
 #### Video📽
 Zde je video s krátkou ukázkou toho co mám připravéného.
 #### Popis📝
