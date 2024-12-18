@@ -55,6 +55,8 @@ void loop() {
 #### Fotky📷
 Zde jsem si nakreslil __plánek__.
 ![Alt text](1734542854064.jpg)
+Tady je __výstřižek z Fusionu__ jak si rýsuju součástky na výrobu.
+![Alt text]()
 #### Video📽
 Zde je video s krátkou ukázkou toho co mám připravéného.
 #### Popis📝
