@@ -54,9 +54,13 @@ void loop() {
 </pre>
 #### Fotky📷
 Zde jsem si nakreslil __plánek__.
+<br>
 ![Alt text](1734542854064.jpg)
+<br>
+<br>
 Tady je __výstřižek z Fusionu__ jak si rýsuju součástky na výrobu.
-![Alt text](Výstřižek 40.PNG)
+<br>
+![Alt text](https://github.com/Adam-Franc/skolni-projekt/blob/6c6357e7de17bfd86bdb99ccf89d66983250def9/V%C3%BDst%C5%99i%C5%BEek%2040.PNG)
 #### Video📽
 Zde je video s krátkou ukázkou toho co mám připravéného.
 #### Popis📝
