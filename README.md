@@ -14,19 +14,57 @@ __Dobrý den 👋, Vypracoval: Adam Franc__ <br>
 ## První pololetí 20.12.2024
 V prvníp pololetí jsem se rozhodl naučit se v programech a připravit si vše potřebné pro uskutečnění mého projektu.
 ### Projekt📁
-Jako projekt jsem si vybral a vymyslel: __Reciklační vyráběčku filamentu__
+Jako projekt jsem si vybral a vymyslel: __Reciklační vyráběčku filamentu__<br>
+<br>
+__Tady je program na arduino aby ukazovalo telotu čidla__
+<pre>
+<code id="code-block">
+#include < LiquidCrystal.h >
+
+// Inicializace LCD displeje
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+// Pin, s teplotným čidlem
+const int tempPin = A0;
+
+void setup() {
+  // Nastavení LCD displeje
+  lcd.begin(16, 2);
+  lcd.print("Teplota:");
+}
+
+void loop() {
+  // Čtení hodnoty z teplotního čidla
+  int tempReading = analogRead(tempPin);
+
+  // Převod hodnoty na teplotu ve stupních Celsia
+  float voltage = tempReading * 5.0 / 1024.0;
+  float temperatureC = voltage * 100;
+
+  // Zobrazení teploty na LCD displeji
+  lcd.setCursor(0, 1);
+  lcd.print(temperatureC);
+  lcd.print(" C");
+
+  // Krátká pauza před dalším měřením
+  delay(1000);
+}
+</code>
+<button onclick="copyToClipboard()">Můžete si kód klidně zkopírovat a zkusit.</button>
+</pre>
 #### Fotky📷
-Zde jsem si nakreslil plánek.
+Zde jsem si nakreslil __plánek__.
 ![Alt text](1734542854064.jpg)
 #### Video📽
 Zde je video s krátkou ukázkou toho co mám připravéného.
 #### Popis📝
 Funguje na principu šneka, který protlačí nadrcený plast skrze topné těleso, z něhož bude vytékat filamet, který se bude následně chladit a namotávat.
+Při tvorbě používám programi Fusion 360, GitHub, Bambulab studio, Arduino IDE.
 ### Cíl projektu🎯
 Projekt by měl být na konci schopný rozdrtit plasty a ty pak spátky přetavit na filament, který by se měl namotat na špulku.<br>
 + Naprogramované arduiono s ukazatelem teploty.
 ### Můj pohled na projekt👌
-Tenhle projekt jsem si vybral hlavně protože mám 3D tiskárnu a nechci vyhazovat zbytečně plast.
+Tenhle projekt jsem si vybral hlavně protože mám 3D tiskárnu a nechci vyhazovat zbytečně plast. Projekt je za mě docela složitý a zatím nemám všechny komponenty, abych ho molh začít stavět, proto jsem se během schánění součástí v tomhle pololetí učil hlavně s těmi programi.
 ## Druhé pololetí 16.5.2025
 ## Citace
 
