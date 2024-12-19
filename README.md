@@ -19,17 +19,19 @@ Jako projekt jsem si vybral a vymyslel: __Reciklační vyráběčku filamentu__<
 __Tady je program na arduino aby ukazovalo telotu čidla__
 <pre>
 <code id="code-block">
-#include < LiquidCrystal.h >
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
 
-// Inicializace LCD displeje
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+// Inicializace LCD displeje s I2C adresou 0x27 (může se lišit)
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-// Pin, s teplotným čidlem
+// Pin, na který je připojeno teplotní čidlo
 const int tempPin = A0;
 
 void setup() {
   // Nastavení LCD displeje
-  lcd.begin(16, 2);
+  lcd.init();
+  lcd.backlight();
   lcd.print("Teplota:");
 }
 
