@@ -66,7 +66,7 @@ Tady je __výstřižek z Fusionu__ jak si rýsuju součástky na výrobu.
 Tady je __3D tiskárna__ na ktersi tisknu dílky.
 ![Alt text](IMG_20241219_212421.jpg)
 A tady mám nějaké __součástky__ na ten projekt.
-![Alt text](
+![Alt text](IMG_20241219_213339.jpg)
 #### Video📽
 Zde je část mého programu kde zapojuju a testuju __Arduino__ aby ukazovalo teplotu.
 #### Popis📝
