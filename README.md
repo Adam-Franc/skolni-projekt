@@ -68,7 +68,7 @@ Tady je __3D tiskárna__ na ktersi tisknu dílky.
 A tady mám nějaké __součástky__ na ten projekt.
 ![Alt text](IMG_20241219_213339.jpg)
 #### Video📽
-Zde je část mého programu kde zapojuju a testuju __Arduino__ aby ukazovalo teplotu.
+Zde je část mého programu kde zapojuju a testuju __Arduino__ aby ukazovalo teplotu.<br>
 [Sledujte video na Google Drive](https://drive.google.com/file/d/1dde__meeCsf8Jv0vqH-MyN_2luJrceo_/view?usp=sharing)
 #### Popis📝
 Funguje na principu šneka, který protlačí nadrcený plast skrze topné těleso, z něhož bude vytékat filamet, který se bude následně chladit a namotávat.
@@ -80,5 +80,8 @@ Projekt by měl být na konci schopný rozdrtit plasty a ty pak spátky přetavi
 Tenhle projekt jsem si vybral hlavně protože mám 3D tiskárnu a nechci vyhazovat zbytečně plast. Projekt je za mě docela složitý a zatím nemám všechny komponenty, abych ho molh začít stavět, proto jsem se během schánění součástí v tomhle pololetí učil hlavně s těmi programi.
 ## Druhé pololetí 16.5.2025
 ## Zdroje
+1) > používal jsem především AI
+2) > Jako inspiraci jsem využil toto [video](https://www.youtube.com/watch?v=BT04glGDjB4).
+3) > Především jsem ten projekt vymýšlel sám.
 
 
