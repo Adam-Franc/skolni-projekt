@@ -69,6 +69,7 @@ A tady mám nějaké __součástky__ na ten projekt.
 ![Alt text](IMG_20241219_213339.jpg)
 #### Video📽
 Zde je část mého programu kde zapojuju a testuju __Arduino__ aby ukazovalo teplotu.
+[Sledujte video na Google Drive](https://drive.google.com/file/d/1dde__meeCsf8Jv0vqH-MyN_2luJrceo_/view?usp=sharing)
 #### Popis📝
 Funguje na principu šneka, který protlačí nadrcený plast skrze topné těleso, z něhož bude vytékat filamet, který se bude následně chladit a namotávat.
 Při tvorbě používám programi Fusion 360, GitHub, Bambulab studio, Arduino IDE.
